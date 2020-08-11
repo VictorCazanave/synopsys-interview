@@ -36,6 +36,10 @@ export default {
 					route: 'organization',
 				},
 				{
+					label: 'Details',
+					route: 'details',
+				},
+				{
 					label: 'Map of Office',
 					route: 'map',
 				},

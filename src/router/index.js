@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import OverviewView from '@/views/OverviewView.vue'
 import DistributionView from '@/views/DistributionView.vue'
 import OrganizationView from '@/views/OrganizationView.vue'
+import DetailsView from '@/views/DetailsView.vue'
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,11 @@ const routes = [
 		path: '/organization',
 		name: 'organization',
 		component: OrganizationView,
+	},
+	{
+		path: '/details',
+		name: 'details',
+		component: DetailsView,
 	},
 ]
 
