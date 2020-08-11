@@ -1,14 +1,33 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/HomeView.vue'
+import OverviewView from '@/views/OverviewView.vue'
+import DistributionView from '@/views/DistributionView.vue'
+import OrganizationView from '@/views/OrganizationView.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
 	{
 		path: '/',
-		name: 'Home',
-		component: Home,
+		name: 'home',
+		redirect: {
+			name: 'overview',
+		},
+	},
+	{
+		path: '/overview',
+		name: 'overview',
+		component: OverviewView,
+	},
+	{
+		path: '/distribution',
+		name: 'distribution',
+		component: DistributionView,
+	},
+	{
+		path: '/organization',
+		name: 'organization',
+		component: OrganizationView,
 	},
 ]
 
