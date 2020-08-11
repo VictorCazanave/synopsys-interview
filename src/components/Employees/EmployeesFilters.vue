@@ -1,9 +1,16 @@
 <template>
-	<aside>
-		<label>Manager:</label>
+	<aside class="filters">
+		<label
+			for="filter-manager"
+			class="label"
+		>
+			Manager:
+		</label>
 		<select
+			id="filter-manager"
 			:value="manager"
 			@change="$emit('filter-manager', parseInt($event.target.value))"
+			class="manager"
 		>
 			<option
 				v-for="option in managerOptions"
@@ -14,8 +21,14 @@
 			</option>
 		</select>
 
-		<label>Title:</label>
+		<label
+			for="filter-title"
+			class="label"
+		>
+			Title:
+		</label>
 		<select
+			id="filter-title"
 			:value="title"
 			@change="$emit('filter-title', $event.target.value)"
 		>
@@ -83,5 +96,19 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.filters {
+	padding: 1.5rem 0;
+	border-top: 0.125rem dashed $color-black;
+	border-bottom: 0.125rem dashed $color-black;
+}
+
+.label {
+	margin-right: 0.5rem;
+	font-weight: bold;
+}
+
+.manager {
+	margin-right: 4rem;
+}
 </style>

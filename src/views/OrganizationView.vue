@@ -1,6 +1,6 @@
 <template>
-	<div>
-		<h2>Organization</h2>
+	<div class="page">
+		<h2 class="page__title">Organization</h2>
 
 		<EmployeesChartTree :employees="employees" />
 	</div>

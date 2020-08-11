@@ -1,6 +1,6 @@
 <template>
-	<div>
-		<h2>Distribution</h2>
+	<div class="page">
+		<h2 class="page__title">Distribution</h2>
 
 		<EmployeesChartRadar
 			:employees="employees"

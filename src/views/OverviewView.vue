@@ -1,6 +1,6 @@
 <template>
-	<div>
-		<h2>Overview</h2>
+	<div class="page">
+		<h2 class="page__title">Overview</h2>
 
 		<EmployeesFilters
 			:manager="manager"

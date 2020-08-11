@@ -1,0 +1,9 @@
+select {
+	padding: 0.5rem;
+	border: 0.125rem solid $color-black;
+	border-radius: 3px;
+	background-color: $color-white;
+	color: $color-black;
+	line-height: 1;
+	cursor: pointer;
+}
