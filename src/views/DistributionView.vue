@@ -18,10 +18,6 @@ export default {
 	components: {
 		EmployeesChartRadar,
 	},
-	data() {
-		return {
-		}
-	},
 	computed: {
 		...mapState(['employees', 'titles']),
 	},

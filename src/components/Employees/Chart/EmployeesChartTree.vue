@@ -47,6 +47,12 @@ export default {
 		this.displayChart()
 	},
 	methods: {
+		/**
+		 * Get employee data formatted for tree chart
+		 *
+		 * @param {Object} employee - Employee raw data
+		 * @returns {Object} Formatted data
+		 */
 		getEmployeeTreeData(employee) {
 			return {
 				name: `${employee.firstName} ${employee.lastName}`,

@@ -15,10 +15,6 @@ export default {
 	components: {
 		EmployeesChartTree,
 	},
-	data() {
-		return {
-		}
-	},
 	computed: {
 		...mapState(['employees']),
 	},
