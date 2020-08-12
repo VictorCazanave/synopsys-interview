@@ -1,5 +1,7 @@
 # synopsys-interview
 
+_Coding challenge for [Synopsys](https://www.synopsys.com)_
+
 ## Project setup
 ```
 npm install
