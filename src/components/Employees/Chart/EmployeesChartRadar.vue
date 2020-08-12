@@ -60,6 +60,14 @@ export default {
 							name: 'Working employees',
 							value: this.titles.map((title) => this.employees
 								.filter((employee) => employee.title === title && !employee.absent).length),
+							label: {
+								show: true,
+
+								// TODO: Display percentage
+								formatter(params) {
+									return params.value
+								},
+							},
 						},
 					],
 				}],

@@ -60,9 +60,6 @@ export default {
 
 		displayChart() {
 			this.chart.setOption({
-				legend: {
-					data: ['Working employees'],
-				},
 				series: [{
 					type: 'tree',
 					orient: 'vertical',

@@ -36,12 +36,12 @@ export default {
 					route: 'organization',
 				},
 				{
-					label: 'Details',
-					route: 'details',
+					label: 'Office',
+					route: 'office',
 				},
 				{
-					label: 'Map of Office',
-					route: 'map',
+					label: 'Details',
+					route: 'details',
 				},
 			],
 		}
