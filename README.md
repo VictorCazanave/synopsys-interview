@@ -1,4 +1,4 @@
-# synopsys-interview
+# Synopsys Interview
 
 _Coding challenge for [Synopsys](https://www.synopsys.com)_
 
