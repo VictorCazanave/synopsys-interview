@@ -2,6 +2,8 @@
 
 _Coding challenge for [Synopsys](https://www.synopsys.com)_
 
+A live demo is available [here](https://victorcazanave.github.io/synopsys-interview/).
+
 ## Project setup
 ```
 npm install
